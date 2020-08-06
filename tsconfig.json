@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "target": "ES2019",
+        "module": "commonJS",
+        // "module": "System",
+        "outDir": "target",
+        "rootDir": "./",
+        "sourceMap": false,
+        "inlineSourceMap": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "declaration": false,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "paths": {
+            "@/*": [
+                "src/*"
+            ],
+            "#/*": [
+                "test/*"
+            ]
+        }
+    },
+    "exclude": [
+        "resources",
+        "node_modules",
+        "target"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "extends": "./tsconfig.json",
+    "exclude": [
+        "src/types",
+        "test/",
+        "dev-resources",
+        "node_modules",
+        "target",
+        "resources"
+    ]
+}
